@@ -1,28 +1,18 @@
-const request = (prompt('Please enter an action: +, -, *, /'));
+const request = prompt('Please enter an action: +, -, *, /');
 
-const firstOperand = (prompt('Please enter first number'));
+const firstOperand = prompt('Please enter first number');
 const firstValue = parseFloat(firstOperand);
 
-const secondOperand = (prompt('Please enter second number'));
+const secondOperand = prompt('Please enter second number');
 const secondValue = parseFloat(secondOperand);
 
-
-
-
-if  (request === '+') { 
+if (request === '+') { 
 		result = firstValue + secondValue;
-} 
-
-
-else if (request === '-') {
+} else if (request === '-') {
 		result = firstValue - secondValue;
-}
-
-else if (request === '*') {
+} else if (request === '*') {
 		result = firstValue * secondValue;
-}
-
-else {
+} else {
 		result = firstValue / secondValue;
 }
 
